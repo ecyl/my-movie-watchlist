@@ -1,3 +1,12 @@
+.movie-card {
+    width: 260px;
+    height: 400px;
+}
+
+.movie-poster img {
+    height: 300px;
+}
+
 .movie-buttons {
     display: flex;
     justify-content: space-between;
