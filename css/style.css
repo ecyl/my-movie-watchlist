@@ -1,0 +1,23 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v6.1.2/css/all.css');
+
+/* import components stylesheets */
+
+@import url(components/banner.css);
+@import url(components/navbar.css);
+@import url(components/footer.css);
+@import url(components/card.css);
+@import url(components/button.css);
+
+
+/* import pages stylesheets */
+@import url(pages/index.css);
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #0B090A;
+    color: white;
+}

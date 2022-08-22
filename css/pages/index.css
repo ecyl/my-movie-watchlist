@@ -1,0 +1,8 @@
+.container {
+    padding: 32px;
+}
+
+.section-top-body {
+    display: flex;
+    margin: 16px;
+}

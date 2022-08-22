@@ -1,0 +1,22 @@
+.watch-now {
+    background-color: #BA181B;
+    padding: 6px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    width: 75%;
+    border: none; 
+}
+
+.add {
+    background-color: #BA181B;
+    padding: 6px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    width: 20%;
+    border: none;
+}
+
+.movie-buttons button:hover {
+    background-color: #b94849;
+    cursor: pointer;
+}
