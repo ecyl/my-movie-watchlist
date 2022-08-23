@@ -1,8 +1,11 @@
 .container {
-    padding: 32px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 32px;
 }
 
 .section-body {
     display: flex;
     margin: 16px;
+    gap: 16px;
 }
