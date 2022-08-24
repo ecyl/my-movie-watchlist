@@ -12,31 +12,30 @@ label {
     display: inline-block;
     margin: 0 0 -1px;
     padding: 15px 25px;
-    font-weight: 600;
     text-align: center;
-    color: white;
+    color: #555;
     border: 1px solid transparent;
 }
   
 label:before {
-    font-weight: normal;
+    font-family: fontawesome;
     margin-right: 10px;
 }
   
 label[for*='1']:before {
-    content: '\f1cb';
+    content: '\f6e2';
 }
   
 label[for*='2']:before {
-    content: '\f17d';
+    content: '\f599';
 }
   
 label[for*='3']:before {
-    content: '\f16b';
+    content: '\f004';
 }
   
 label[for*='4']:before {
-    content: '\f1a9';
+    content: '\e518';
 }
   
 label:hover {
@@ -45,8 +44,9 @@ label:hover {
 }
   
 input:checked + label {
-    color: #555;
+    color: white;
     border-bottom: 2px solid #BA181B;
+    font-weight: 600;
 }
   
 #tab1:checked ~ #content1,
