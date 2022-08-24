@@ -16,6 +16,7 @@
 
 /* import pages stylesheets */
 @import url(pages/index.css);
+@import url(pages/favourite.css);
 
 body {
     font-family: 'Montserrat', sans-serif;
