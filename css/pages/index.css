@@ -9,3 +9,7 @@
     margin: 16px;
     gap: 16px;
 }
+
+#new-releases, #top-rated, #watch-again {
+    display: flex;
+}
