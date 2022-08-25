@@ -29,4 +29,5 @@
 .list-card {
     display: flex;
     max-height: 400px;
+    gap: 16px;
 }

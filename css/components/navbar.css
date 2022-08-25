@@ -9,10 +9,6 @@ a {
   text-decoration: none;
 }
  
-li {
-  list-style: none;
-}
-
 .navbar {
   display: flex;
   align-items: center;
@@ -20,6 +16,10 @@ li {
   padding: 8px;
   background-color: rgba(77, 76, 76, 0.896);
   color: white;
+}
+
+.navbar li {
+  list-style: none;
 }
 
 .nav-links a {
