@@ -12,4 +12,6 @@
 
 #new-releases, #top-rated, #watch-again {
     display: flex;
+    overflow-x: scroll;
+    gap: 40px;
 }
