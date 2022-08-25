@@ -30,4 +30,11 @@
     display: flex;
     max-height: 400px;
     gap: 16px;
+    margin: 24px;
+}
+
+.list-card-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }

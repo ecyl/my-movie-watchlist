@@ -16,7 +16,7 @@
     border: none;
 }
 
-.movie-buttons button:hover {
+button:hover {
     background-color: #b94849;
     cursor: pointer;
 }
