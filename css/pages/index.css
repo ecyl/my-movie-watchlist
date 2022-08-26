@@ -39,3 +39,75 @@
     overflow-x: scroll;
     gap: 40px;
 }
+
+/* new releases scrollbar */
+#new-releases::-webkit-scrollbar-track
+{
+  box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  border-radius: 10px;
+  width: 6px;
+  background-color: black;
+}
+
+#new-releases::-webkit-scrollbar
+{
+  width: 6px;
+  border-radius: 10px;
+  background-color: black;
+}
+
+#new-releases::-webkit-scrollbar-thumb
+{
+  border-radius: 10px;
+  width: 6px;
+  box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+  background-color: #D62929;
+}
+
+/* top-rated scrollbar */
+#top-rated::-webkit-scrollbar-track
+{
+  box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  border-radius: 10px;
+  width: 6px;
+  background-color: black;
+}
+
+#top-rated::-webkit-scrollbar
+{
+  width: 6px;
+  border-radius: 10px;
+  background-color: black;
+}
+
+#top-rated::-webkit-scrollbar-thumb
+{
+  border-radius: 10px;
+  width: 6px;
+  box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+  background-color: #D62929;
+}
+
+/* watch again */
+#watch-again::-webkit-scrollbar-track
+{
+  box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  border-radius: 10px;
+  width: 6px;
+  background-color: black;
+}
+
+#watch-again::-webkit-scrollbar
+{
+  width: 6px;
+  border-radius: 10px;
+  background-color: black;
+}
+
+#watch-again::-webkit-scrollbar-thumb
+{
+  border-radius: 10px;
+  width: 6px;
+  box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+  background-color: #D62929;
+}
