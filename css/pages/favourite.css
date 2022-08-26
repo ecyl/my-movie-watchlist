@@ -1,6 +1,9 @@
 .fav-container {
-    height: 100vh;
     margin-left: 100px;
     margin-right: 100px;
     margin-top: 32px;
+}
+
+.content>.movie-card{
+    margin: 8px;
 }

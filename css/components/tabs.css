@@ -53,6 +53,8 @@ input:checked + label {
 #tab2:checked ~ #content2,
 #tab3:checked ~ #content3,
 #tab4:checked ~ #content4 {
-    display: block;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
 }
   
